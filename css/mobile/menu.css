@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    background-color: #2b2b2b;
+}
+header>nav{
+    width: inherit;
+}
+header>nav>ul{
+    width: inherit;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    padding: 10px 0px;
+}
+header>nav>ul>li{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+header>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 300ms;
+}
+
+header>nav>ul>li:hover{
+    background-color:deeppink;
+}

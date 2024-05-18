@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>boomb amir</title>
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- start website -->
+    <div class="wrapper">
+      <!-- menu-->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">delivery</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- end menu-->
+
+      <!-- slider-->
+      <div class="slider">
+        <div class="swiper fastfood">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/slider1.png" alt="slider" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider2.jpg" alt="slider" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider3.jpeg" alt="slider" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slider4.jpg" alt="slider" />
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- end slider-->
+
+      <!-- product -->
+      <div class="products">
+        <div class="product">
+            <h1>Pizza</h1>
+            <img src="./images/slider2.jpg" alt="pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis recusandae deserunt repellat mollitia. Repellat amet commodi quos mollitia iure.</p>
+            <p>price: 10$</p>
+            <div class="detail">
+                <span>count: 10</span>
+                <span>rate: 84%</span>
+            </div>
+            <div class="btn">buy</div>
+        </div>
+        <div class="product">
+            <h1>Pizza</h1>
+            <img src="./images/slider2.jpg" alt="pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis recusandae deserunt repellat mollitia. Repellat amet commodi quos mollitia iure.</p>
+            <p>price: 10$</p>
+            <div class="detail">
+                <span>count: 10</span>
+                <span>rate: 84%</span>
+            </div>
+            <div class="btn">buy</div>
+        </div>
+        <div class="product">
+            <h1>Pizza</h1>
+            <img src="./images/slider2.jpg" alt="pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis recusandae deserunt repellat mollitia. Repellat amet commodi quos mollitia iure.</p>
+            <p>price: 10$</p>
+            <div class="detail">
+                <span>count: 10</span>
+                <span>rate: 84%</span>
+            </div>
+            <div class="btn">buy</div>
+        </div>
+
+        <div class="product">
+            <h1>Pizza</h1>
+            <img src="./images/slider2.jpg" alt="pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis recusandae deserunt repellat mollitia. Repellat amet commodi quos mollitia iure.</p>
+            <p>price: 10$</p>
+            <div class="detail">
+                <span>count: 10</span>
+                <span>rate: 84%</span>
+            </div>
+            <div class="btn">buy</div>
+        </div>
+
+        <div class="product">
+            <h1>Pizza</h1>
+            <img src="./images/slider2.jpg" alt="pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis recusandae deserunt repellat mollitia. Repellat amet commodi quos mollitia iure.</p>
+            <p>price: 10$</p>
+            <div class="detail">
+                <span>count: 10</span>
+                <span>rate: 84%</span>
+            </div>
+            <div class="btn">buy</div>
+        </div>
+
+        <div class="product">
+            <h1>Pizza</h1>
+            <img src="./images/slider2.jpg" alt="pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis recusandae deserunt repellat mollitia. Repellat amet commodi quos mollitia iure.</p>
+            <p>price: 10$</p>
+            <div class="detail">
+                <span>count: 10</span>
+                <span>rate: 84%</span>
+            </div>
+            <div class="btn">buy</div>
+        </div>
+
+        <div class="product">
+            <h1>Pizza</h1>
+            <img src="./images/slider2.jpg" alt="pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis recusandae deserunt repellat mollitia. Repellat amet commodi quos mollitia iure.</p>
+            <p>price: 10$</p>
+            <div class="detail">
+                <span>count: 10</span>
+                <span>rate: 84%</span>
+            </div>
+            <div class="btn">buy</div>
+        </div>
+        
+      </div>
+      <!-- end product -->
+    </div>
+    <!-- end start website -->
+
+    <script src="./swiper/swiper-bundle.js"></script>
+    <script>
+      var swiper = new Swiper(".fastfood", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
