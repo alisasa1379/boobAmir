@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    background-color: purple;
+    padding: 10PX;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer>div{
+    flex-grow: 1;
+    height: 150px;
+    background-color: green;
+}
