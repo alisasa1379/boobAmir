@@ -11,5 +11,5 @@ footer{
 footer>div{
     flex-grow: 1;
     height: 150px;
-    background-color: green;
+    background-color: red;
 }
